@@ -28,6 +28,12 @@ Este é um projeto desenvolvido somente com HTML e CSS, feito no curso de Desenv
 
 * Esse projeto não necessita de nenhuma aplicação externa. :) 
 
+
+## 🔗 Visualização
+
+* Se você quiser visualizar este projeto, entre nesse [link](https://shoes-store-project.vercel.app/).
+
+
 ## 🤝 Colaboradores
 
 Agradecemos às seguintes pessoas que contribuíram para este projeto:
