@@ -2,8 +2,9 @@
 
 <!---Esses são exemplos. Veja https://shields.io para outras pessoas ou para personalizar este conjunto de escudos. Você pode querer incluir dependências, status do projeto e informações de licença aqui--->
 
-![GitHub repo size](https://img.shields.io/badge/size-517.2KBs-blue?style=for-the-badge)
+![GitHub repo size](https://img.shields.io/github/languages/code-size/kauanunnes/shoes-store-project?style=for-the-badge)
 ![GitHub language count](https://img.shields.io/badge/LANGUAGE__COUNT-2-blue?style=for-the-badge)
+![GitHub language count](https://img.shields.io/apm/l/vim-mode?style=for-the-badge)
 
 <img src="media/photos/homepage-1.gif" alt="Home">
 
