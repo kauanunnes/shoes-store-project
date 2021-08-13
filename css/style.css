@@ -1,0 +1,435 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+:root {
+  --primary-color: rgba(194, 24, 91, 1);
+}
+
+body {
+  font-size: 16px;
+  overflow-x: hidden;
+}
+
+.main-container {
+  width: 100vw;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+
+/* header */
+
+header {
+  width: 100%;
+  height: 100px;
+  box-shadow: 0px 1px 20px 0px rgba(139, 139, 139, 0.65);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+}
+
+header img {
+  position: relative;
+  height: 100%;
+}
+
+header ul {
+  height: 100%;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+header ul li {
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: #777777;
+}
+
+/* subheader */
+
+section.sub-header {
+  width: 100vw;
+  z-index: 1;
+}
+
+section.sub-header img {
+  width: 100%;
+}
+
+/* style - container */
+
+section.style {
+  margin: 75px 0 150px;
+  width: 100vw;
+  height: 150vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section.style .image-container {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 75px 0;
+  gap: 50px;
+}
+
+section.style .image-container img:nth-child(1) {
+  height: 80%;
+}
+
+section.style .image-container img:nth-child(2) {
+  height: 100%;
+}
+
+/* product section */
+
+section.bookmarks-products {
+  width: 100vw;
+  height: 630px;
+  background: var(--primary-color);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 50px;
+  margin: 0 0 75px;
+  position: relative;
+}
+
+section.bookmarks-products ul {
+  width: 90%;
+  padding: 0 25px 0 10px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  list-style-type: none;
+  gap: 10px;
+}
+
+section.bookmarks-products ul li {
+  color: #000;
+  background: #fff;
+}
+
+section.bookmarks-products ul li img {
+  height: 75%;
+  width: 100%;
+}
+
+section.bookmarks-products ul li .product-info {
+  text-align: left;
+  padding: 5px 10px 10px;
+}
+
+section.bookmark-product {
+  width: 100vw;
+  padding: 0 50px;
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+}
+
+section.bookmark-product .info-container {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.4;
+  gap: 30px;
+  width: 50%;
+}
+section.bookmark-product .info-container img {
+  width: auto;
+  height: 75%;
+}
+
+section.bookmark-product .info-container h2 {
+  font-weight: 600;
+  font-size: 2.2rem;
+}
+
+section.bookmark-product .info-container button {
+  border: none;
+  background: var(--primary-color);
+  width: 400px;
+  color: #fff;
+  font-size: 1.6rem;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition-duration: 0.2s;
+}
+
+section.bookmark-product .info-container button:hover {
+  transform: scale(1.05);
+}
+
+section.bookmark-product .photo-1 {
+  width: 60%;
+}
+
+section.bookmark-product .photo-1 img {
+  width: 100%;
+}
+/* footer */
+
+footer {
+  width: 100vw;
+  background: var(--primary-color);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  padding: 20px 50px;
+  font-size: 0.875rem;
+  align-items: center;
+  gap: 30%;
+  height: 300px;
+  margin: 75px 0 0 0;
+}
+
+footer .right-footer {
+  display: flex;
+  align-items: center;
+  gap: 25%;
+  width: 40%;
+}
+
+footer .footer-information {
+  width: 70%;
+  line-height: 1.6;
+}
+
+footer .footer-information a {
+  color: #fff;
+}
+
+footer .footer-information:nth-child(1) {
+  width: 25%;
+}
+
+/* TRABALHE CONOSCO */
+
+main.form-container {
+  margin: 15px auto;
+  width: 85vw;
+  display: flex;
+  padding: 10px 30px;
+  justify-content: center;
+  gap: 20px;
+  color: rgba(87, 87, 87, 1);
+  align-items: center;
+}
+main.form-container .form {
+  width: 60%;
+}
+
+main.form-container .form h1 {
+  font-weight: 600;
+  margin: 0 0 25px;
+}
+
+main.form-container .form form {
+  display: flex;
+  flex-direction: column;
+}
+
+main.form-container .form form .disponibilidade {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 10px 0;
+}
+
+main.form-container .form form .disponibilidade input {
+  width: 50px;
+  margin: 10px 0;
+}
+
+.checkbox-area {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin: 10px 0 0;
+}
+
+main.form-container .form form .melhor-contato {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+main.form-container .form form .melhor-contato input {
+  width: 50px;
+  border: none;
+  background: rgba(196, 196, 196, 1);
+}
+
+main.form-container .form form .radio-area {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  padding: 10px 0;
+}
+
+main.form-container .container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 1rem;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+main.form-container .container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  margin-top: 2px;
+  top: 0;
+  left: 0;
+  height: 15px;
+  width: 15px;
+  border-radius: 10px;
+  background: rgba(196, 196, 196, 1);
+}
+
+/* On mouse-over, add a grey background color */
+label.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+label.container input:checked ~ .checkmark {
+  background-color: #2196f3;
+}
+
+main.form-container input,
+textarea,
+select {
+  width: 100%;
+  outline: none;
+  padding: 5px;
+  margin: 10px 0;
+  resize: none;
+  border: 1px solid rgba(155, 155, 155, 1);
+}
+
+main.form-container .work-w-us-info {
+  width: 60%;
+  line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+}
+
+main.form-container .disponibilidade .checkmark {
+  border-radius: 4px;
+}
+
+main.form-container .disponibilidade .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+main.form-container
+  .disponibilidade
+  .container
+  input:checked
+  ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+main.form-container .disponibilidade .container .checkmark:after {
+  left: 6px;
+  top: 4px;
+  width: 2px;
+  height: 4px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+main.form-container #curriculo-area {
+  display: flex;
+  align-items: center;
+}
+
+main.form-container #file-input {
+  width: 100px;
+  padding: 10px;
+  background: #777777;
+  color: #fff;
+  text-align: center;
+  margin: 10px;
+  border-radius: 4px;
+}
+
+main.form-container input[type="file"] {
+  display: none;
+  position: absolute;
+}
+
+main.form-container .form form button {
+  border: none;
+  padding: 10px;
+  background: var(--primary-color);
+  color: #fff;
+  font-size: 1.2rem;
+  margin: 5px 0;
+}
+
+@media (max-width: 768px) {
+  section.bookmarks-products ul li {
+    height: 340px;
+  }
+
+  section.bookmark-product .info-container h2 {
+    font-size: 1.6rem;
+  }
+
+  section.bookmark-product .info-container button {
+    width: 250px;
+  }
+
+
+  section.bookmark-product .info-container img {
+    height: 65%;
+    width: auto;
+  }
+
+  main.form-container .form form .checkbox-area,
+  main.form-container .form form .radio-area {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+  }
+}
