@@ -564,6 +564,10 @@ main.form-container .form form button {
     width: 100%;
   }
 
+  main.form-container .work-w-us-info {
+    width: 90%;
+  }
+
 
   footer {
     width: 100vw;
