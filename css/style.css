@@ -407,7 +407,23 @@ main.form-container .form form button {
   margin: 5px 0;
 }
 
+@media (max-width: 932px) {
+  section.style .image-container {
+    margin: 40px 0;
+  }
+  section.style .image-container img:nth-child(1) {
+    height: 60%;
+  }
+  section.style .image-container img:nth-child(2) {
+    height: 75%;
+  }
+}
+
 @media (max-width: 768px) {
+  section.style .image-container {
+    margin: 40px 0;
+  }
+
   section.bookmarks-products ul li {
     height: 340px;
   }
@@ -419,7 +435,6 @@ main.form-container .form form button {
   section.bookmark-product .info-container button {
     width: 250px;
   }
-
 
   section.bookmark-product .info-container img {
     height: 65%;
