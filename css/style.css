@@ -419,8 +419,14 @@ main.form-container .form form button {
   section.style .image-container img:nth-child(1) {
     height: 60%;
   }
+
+  section.style .image-container {
+    margin: 15px 0;
+    height: auto;
+  }
+
   section.style .image-container img:nth-child(2) {
-    height: 75%;
+    height: 65vh;
   }
 }
 
@@ -508,7 +514,7 @@ main.form-container .form form button {
 
   section.style {
     margin: 50px 0;
-    height: 130vh;
+    height: auto;
   }
 
   section.style h1 {
@@ -516,7 +522,7 @@ main.form-container .form form button {
   }
 
   section.style .image-container {
-    margin: 0;
+    margin: 15px 0;
   }
 
   section.style .image-container img:nth-child(1) {
@@ -525,7 +531,8 @@ main.form-container .form form button {
   }
 
   section.bookmarks-products ul li {
-    width: 60%;
+    width: 75%;
+    max-width: 80vw;
   }
 
   section.bookmark-product {
@@ -613,9 +620,7 @@ main.form-container .form form button {
 }
 
 @media (max-width: 425px) {
-  section.bookmarks-products ul li {
-    width: 60%;
-  }
+  
   section.style .image-container img {
     max-width: 80vw;
     height: auto;
